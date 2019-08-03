@@ -17,6 +17,10 @@ switch state {
 			if input.action {
 				if bones > 0 {
 					state = "SUMMONING";
+					// Set the sprite
+					sprite_index = action_sprite;
+					image_index = 0;
+					image_speed = 1;
 					show_debug_message("Necromancer switched to SUMMONING");
 				} else {
 					show_debug_message("Not enough BONES!");
@@ -34,20 +38,21 @@ switch state {
 
 #region SUMMONING STATE
 	case "SUMMONING":
-		// Set the sprite
-		//set_state_sprite(action_sprite, 1, 0);
+		
+		limp_movement();
 		
 		// Summon the minion at certain frame (implement after animation is done)
-		
-		summon_minion(x, y - 32, bones);
-		
+		if animation_hit_frame(16){
+			summon_minion(x, y - 32, bones);
+			
+		}
 		
 		
 		// Return to IDLE when animation is finished
-		
-		state = "IDLE";
-		show_debug_message("Necromancer switched to IDLE");
-		
+		if animation_end(){
+			state = "IDLE";
+			show_debug_message("Necromancer switched to IDLE");
+		}
 		
 		break;
 #endregion

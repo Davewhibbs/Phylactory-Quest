@@ -35,4 +35,4 @@ move_sprite = s_necromancer_idle;
 hurt_sprite = s_necromancer_idle;
 jump_sprite = s_necromancer_idle;
 fall_sprite = s_necromancer_idle;
-action_sprite = s_necromancer_idle;
+action_sprite = s_necromancer_summon;

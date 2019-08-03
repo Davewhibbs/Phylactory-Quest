@@ -6,7 +6,8 @@
     "children": [
         "fc6b157d-8485-4c37-acac-b607cd017c21",
         "5eeab335-284e-4ec1-b8cb-a5a3da9953a5",
-        "0ed35976-86fa-43f4-926e-89b3c35cc75a"
+        "0ed35976-86fa-43f4-926e-89b3c35cc75a",
+        "af50d0e5-8318-46f0-b421-2746f628defd"
     ],
     "filterType": "GMSprite",
     "folderName": "Necromancer",

@@ -11,6 +11,7 @@ minion.max_hp = m_bones;
 minion.current_hp = m_bones;
 minion.alarm[0] = 60;  // (1) Seconds
 minion.state = "PROJECTILE";
+minion.image_xscale = image_xscale;
 minion.x_speed = 10 * image_xscale;
 minion.y_speed = -2; 
 

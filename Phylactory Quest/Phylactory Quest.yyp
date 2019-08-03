@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "3b2dd097-b914-463f-921d-cf95d65ac9b8",
+            "Value": {
+                "id": "7db7ddfb-8121-45d6-a424-2ba6b4b99bff",
+                "resourcePath": "objects\\o_camera\\o_camera.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3b796d9c-c963-4400-8933-2eeac49fac19",
             "Value": {
                 "id": "d5b70d1f-67c3-41f3-b0a0-106d001b4aba",
@@ -396,6 +404,14 @@
                 "id": "ec9e3ae2-c5ad-4e4e-8f75-6458d9d053e4",
                 "resourcePath": "views\\ae3191e5-1c8e-4d8d-b59c-d1bcf415abce.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "af50d0e5-8318-46f0-b421-2746f628defd",
+            "Value": {
+                "id": "0e59d4f2-2963-41a1-9525-e27905b845a9",
+                "resourcePath": "sprites\\s_necromancer_summon\\s_necromancer_summon.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
