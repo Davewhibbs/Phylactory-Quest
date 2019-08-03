@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "17ce17a6-3918-43ad-8140-1d00510d79a0",
+            "Value": {
+                "id": "5e33f1e4-bd90-406e-8221-d7f7ec82091b",
+                "resourcePath": "objects\\o_explosion\\o_explosion.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1a85cf3f-96bc-4cd8-acb6-7ecf2cc55ff1",
             "Value": {
                 "id": "d7e96a0f-c669-418e-bd2b-08889290b977",
@@ -107,6 +115,14 @@
             "Value": {
                 "id": "607a6b22-f8c8-41b6-bc94-e44217a34e7f",
                 "resourcePath": "sprites\\s_terrain_proto\\s_terrain_proto.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3a62ca09-3a09-4799-974d-4674cdfb7216",
+            "Value": {
+                "id": "84b288aa-69d1-4626-8727-ea245f6e4b3d",
+                "resourcePath": "sprites\\s_necro_explosion\\s_necro_explosion.yy",
                 "resourceType": "GMSprite"
             }
         },

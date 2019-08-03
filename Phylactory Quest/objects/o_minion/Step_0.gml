@@ -28,6 +28,8 @@ switch state {
 		// CREATE EXPLOSION AND HITBOX
 		create_hitbox(x, y, id, s_explosion_hitbox_test, 4, 15, current_hp, image_xscale);
 		
+		instance_create_layer(x, y, "Particles", o_explosion);
+		
 		// Switch to Death state
 		state = "DEAD";
 		break;
@@ -61,7 +63,7 @@ switch state {
 		// Spawn a bone on death
 		for (i = max_hp; i > 0; i--) {
 			var bone = instance_create_layer(x, y-16, "Particles", o_bone);
-			bone.x_speed = random_range(-max_speed, max_speed);
+			bone.x_speed = random_range(1*image_xscale, max_speed*image_xscale);
 			bone.y_speed = random_range(-6, -10);
 		}
 		
