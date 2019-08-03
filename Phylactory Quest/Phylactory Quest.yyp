@@ -335,6 +335,14 @@
             }
         },
         {
+            "Key": "8faa6dc2-a6d7-4f17-9cbb-0758d7e76793",
+            "Value": {
+                "id": "20dd5997-76a4-43e3-a79d-f4acaa99b888",
+                "resourcePath": "scripts\\summoning_movement\\summoning_movement.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "9062f8d3-9b08-4d6c-a99d-f75f30a20997",
             "Value": {
                 "id": "e9b38629-05be-463e-b2db-80237cba2381",
@@ -697,6 +705,7 @@
     ],
     "script_order": [
         "c004d2c7-dd2e-4c18-a804-d06f12671083",
+        "8faa6dc2-a6d7-4f17-9cbb-0758d7e76793",
         "c68d4400-7836-4520-b2d8-0f9102120e7f",
         "df1d2e46-d54c-40cf-bc75-c2b67f4b6905",
         "ba2e6a0b-1d61-42de-b756-1b6c769cc606",

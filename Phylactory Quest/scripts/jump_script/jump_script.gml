@@ -1,7 +1,11 @@
 ///@param height
-image_index = 0;
+
 y_speed = argument0;
-sprite_index = jump_sprite;
+
+if sprite_index != action_sprite {
+	sprite_index = jump_sprite;
+	image_index = 0;
+}
 
 show_debug_message("JUMP");
 

@@ -39,7 +39,7 @@ switch state {
 #region SUMMONING STATE
 	case "SUMMONING":
 		
-		limp_movement();
+		summoning_movement();
 		
 		// Summon the minion at certain frame (implement after animation is done)
 		if animation_hit_frame(16){
